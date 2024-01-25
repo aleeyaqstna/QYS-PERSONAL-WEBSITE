@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qys-Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Your Future Marketer</p>
+            <h1>Hi, I'm <span>Qistina</span><br>From Malaysia</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>  I'm Aleeya Qistina.Aswawi,21 Years Old.I'm a student marketer passionate about the art of storytelling and data-driven marketing. Pursuing a Marketing (Hons) degree at University Technology Malaysia (UiTM), I'm on a mission to be a catalyst for brand success. I'm committed to mastering the art of marketing, blending creativity with data-driven insights to tell compelling stories that resonate with audiences.  
+                    Welcome to my digital space where I share insights, experiences, and projects that excite me. Let's make a marketing impact together!
+                    </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Market Research</span><br>Emphasize your proficiency in market research, including your ability to gather and analyze data to inform marketing strategies.</li>
+                        <li><span>Content Creation</span><br>Showcase your content creation abilities, whether it's blog posts, videos, infographics, or other forms of content. Include samples or links to your best work.</li>
+                        <li><span>Digital Marketing</span><br>Highlight your expertise in various digital marketing channels, such as SEO, SEM, social media marketing, email marketing, and content marketing. Mention any specific platforms or tools you are skilled in.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - Current</span><br>Workshops and Webinars: Attend marketing workshops and webinars to stay updated on industry trends and gain practical insights from experts.</li>
+                        <li><span>2023</span><br>olunteer Work: Offer your marketing skills to non-profit organizations or community events.</li>
+                        <li><span>2022</span><br>Volunteer Work: as a director and leader of a group project in an academic. </li>
+                        <li><span>2019-2021</span><br>Being the CEO of my family music supply company</li>                    </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-2025</span><br>Marketing (Hons) in Degree from UiTM Kota Bharu, Kelantan</li>
+                        <li><span>2021</span><br>Account Student from Kolej Matrikulasi Kedah.</li>
+                        <li><span>2016-2021</span><br>Finish my SPM from SMK Mulong, Kelantan</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="hobbies">
+                    <ul>
+                        <li><span>Make a content video about Islamic in TikTok</span><br></li>
+                        <li><span>Playing Piano</li>
+                        <li><span>Playing Guitar</span><br></li>
+                        <li><span>Playing Badminton</span><br></li>
+                        <li><span>Cooking</span><br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+<!-- ----------gallery------------ -->
+<div id="gallery">
+    <div class="container">
+        <h1 class="sub-title">Gallery</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/family.png">
+                <div class="layer">
+                    <h3>My Family</h3>
+                    <p>Family is at the heart of who I am, and I'm grateful to introduce you to the amazing people who have shaped my life. I am the second child among six siblings, and together, we make up a dynamic and close-knit family.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/friends.png">
+                <div class="layer">
+                    <h3>My Friends</h3>
+                    <p>Friendship is one of life's most precious gifts, and I'm fortunate to have them that make a friendship not only enjoyable but also enriching.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/me.png">
+                <div class="layer">
+                    <h3>Me</h3>
+                    <p>Life is an incredible journey, and I'm thrilled to share some of the remarkable achievements and experiences that have shaped my path. It's not about boasting but rather recognizing the hard work, determination, and passion that have allowed me to do great things.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Briefing</h3>
+                    <p>Me that gathered everyone to discuss about the program, "TogetherWeShine," which will take place at SMKA Melor. "TogetherWeShine" is a multifaceted program designed to empower and inspire the students of SMKA Melor. Our primary goal is to create a positive and nurturing environment that fosters personal growth, academic excellence, and community engagement. </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Speech</h3>
+                    <p>Me in a hall filled with eager faces, all eyes focused on the stage. The atmosphere is charged with anticipation, and then, the moment arrives. The spotlight falls on me, the speaker of the hour, ready to deliver an inspiring and captivating speech. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Success</h3>
+                    <p>In this cherished photograph, the joy of achievement radiates from every smile, and the sense of accomplishment is palpable. It captures a pivotal moment in time when me and the entire team stood together, united by a common purpose, and beaming with pride.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> aleeyaqstna56@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 01137877835</p> 
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
